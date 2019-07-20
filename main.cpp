@@ -261,7 +261,6 @@ int checkRowD(int *computer, char *board)
 int checkCol(int *computer, char *board)
 {
     int col = *computer - 1;
-    int counter = 0;
     if(col < 3)
     {
         if(board[col+3] == 'O' || board[col+6] == 'O')
